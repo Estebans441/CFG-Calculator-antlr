@@ -1,0 +1,6 @@
+a = 10
+b = 15
+a * b
+total = (2+2) * 8 + (12 / 3)
+descuento = (3 * 4) / (4 - 2)
+total - descuento
