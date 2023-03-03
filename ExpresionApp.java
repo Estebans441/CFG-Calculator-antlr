@@ -3,7 +3,6 @@ import org.antlr.v4.runtime.misc.Interval;
 import org.antlr.v4.runtime.tree.*;
 
 import java.io.*;
-import java.util.BitSet;
 import java.util.Scanner;
 
 public class ExpresionApp {
@@ -41,7 +40,7 @@ public class ExpresionApp {
                 throw new RuntimeException(e);
             }
         });
-        ParseTree tree = null;
+        ParseTree tree;
         try {
             tree = parser.prog();
         } catch (RuntimeException e) {
